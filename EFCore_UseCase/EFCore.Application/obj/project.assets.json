@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "EFCore.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/EFCore.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EFCore.Application.Contracts.dll": {}
+        }
+      },
+      "EFCore.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EFCore.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EFCore.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EFCore.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "EFCore.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../EFCore.Application.Contracts/EFCore.Application.Contracts.csproj",
+      "msbuildProject": "../EFCore.Application.Contracts/EFCore.Application.Contracts.csproj"
+    },
+    "EFCore.Domain/1.0.0": {
+      "type": "project",
+      "path": "../EFCore.Domain/EFCore.Domain.csproj",
+      "msbuildProject": "../EFCore.Domain/EFCore.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "EFCore.Application.Contracts >= 1.0.0",
+      "EFCore.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\azera\\.nuget\\packages\\": {}
@@ -33,7 +71,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\IT Studies\\Asp.Net Sample\\EFCore_UseCase_Product\\EFCore_UseCase\\EFCore.Application.Contracts\\EFCore.Application.Contracts.csproj": {
+              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\EFCore_UseCase_Product\\EFCore_UseCase\\EFCore.Application.Contracts\\EFCore.Application.Contracts.csproj"
+            },
+            "E:\\IT Studies\\Asp.Net Sample\\EFCore_UseCase_Product\\EFCore_UseCase\\EFCore.Domain\\EFCore.Domain.csproj": {
+              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\EFCore_UseCase_Product\\EFCore_UseCase\\EFCore.Domain\\EFCore.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

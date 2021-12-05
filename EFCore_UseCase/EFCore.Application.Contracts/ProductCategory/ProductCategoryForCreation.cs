@@ -6,8 +6,11 @@ using System.Threading.Tasks;
 
 namespace EFCore.Application.Contracts.ProductCategory
 {
-    public class CreateProductCategory
+    public class ProductCategoryForCreation
+
     {
         public string  CategoryName { get; set; }
     }
+
+    
 }

@@ -1,0 +1,5 @@
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Infrastracture\obj\Debug\net6.0\EFCore.Infrastracture.csproj.AssemblyReference.cache
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Infrastracture\obj\Debug\net6.0\EFCore.Infrastracture.GeneratedMSBuildEditorConfig.editorconfig
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Infrastracture\obj\Debug\net6.0\EFCore.Infrastracture.AssemblyInfoInputs.cache
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Infrastracture\obj\Debug\net6.0\EFCore.Infrastracture.AssemblyInfo.cs
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Infrastracture\obj\Debug\net6.0\EFCore.Infrastracture.csproj.CoreCompileInputs.cache

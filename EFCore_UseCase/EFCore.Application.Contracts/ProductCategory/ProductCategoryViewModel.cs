@@ -4,7 +4,7 @@
     {
         public int CategoryID { get; set; }
         public string CategoryName { get; set; }
-        public DateTime CreationDate { get; set; }
+        public string CreationDate { get; set; }
 
     }
 }

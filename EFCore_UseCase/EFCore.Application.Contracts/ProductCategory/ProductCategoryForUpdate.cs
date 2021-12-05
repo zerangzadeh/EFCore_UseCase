@@ -1,6 +1,6 @@
 ﻿namespace EFCore.Application.Contracts.ProductCategory
 {
-    public class UpdateProductCategory:CreateProductCategory
+    public class ProductCategoryForUpdate:ProductCategoryForCreation
     {
         public int CategoryID { get; set; }
     }

@@ -10,13 +10,13 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace EFCore.Domain.Mapping
 {
-    internal class CategoryMapping : IEntityTypeConfiguration<Category>
+    public class ProductCategoryMapping : IEntityTypeConfiguration<ProductCategory>
     {
-        public void Configure(EntityTypeBuilder<Category> builder)
+        public void Configure(EntityTypeBuilder<ProductCategory> builder)
         {
-            builder.ToTable("Category");
+            builder.ToTable("ProductCategories");
             builder.HasKey(x=>x.CategoryID);
-            builder.HasMany(x => x.Products).WithOne(x => x.Category);
+            builder.HasMany(x => x.Products).WithOne(x => x.ProductCategory);
 
         }
     }

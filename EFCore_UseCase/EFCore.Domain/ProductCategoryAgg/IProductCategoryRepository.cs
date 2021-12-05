@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EFCore.Application.Contracts.ProductCategory;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,5 +11,12 @@ namespace EFCore.Domain.ProductCategoryAgg
     {
         ProductCategory Get(int CategoryID);
         void Create(ProductCategory category);
+        void Delete(int categoryID);
+        public List<ProductCategoryViewModel> Search(string categoryName);
+        bool Exist(string categoryName); 
+        void Update(int categoryID,string categoryName);
+        void SaveChanges();
+
+
     }
 }

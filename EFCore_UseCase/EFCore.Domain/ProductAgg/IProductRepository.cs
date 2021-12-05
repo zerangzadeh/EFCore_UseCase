@@ -8,10 +8,10 @@ namespace EFCore.Domain.ProductAgg
 {
     public interface IProductRepository
     {
-
         Product Get(int ProductID);
         void Create(Product product);
-
+        void Remove(int ProductID);
+        Product Update(int ProductID);
 
     }
 }

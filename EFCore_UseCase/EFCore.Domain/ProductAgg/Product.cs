@@ -13,17 +13,37 @@ namespace EFCore.Domain.ProductAgg
         public int ProductID { get; set; }
         public string ProductName { get; set; }
         public DateTime CreationDate { get; set; }
-        public decimal UnitPrice { get; set; }
+        public double UnitPrice { get; set; }
         public bool IsDeleted { get; set; }
         public int CategoryID { get; set; }
         public ProductCategory ProductCategory { get; set; }
 
-        public Product(string productName, DateTime addDate, decimal unitPrice, int categoryID)
+
+
+
+        public Product(string productName, DateTime addDate, double unitPrice, int categoryID)
         {
             ProductName = productName;
             CreationDate = addDate;
             UnitPrice = unitPrice;
             CategoryID = categoryID;
         }
+        public void Edit(string productName, DateTime addDate, double unitPrice, int categoryID)
+        {
+            ProductName = productName;
+            CreationDate = addDate;
+            UnitPrice = unitPrice;
+            CategoryID = categoryID;
+
+        }
+        public void Remove()
+        {
+            IsDeleted = true;   
+        }
+        public void Restore()
+        {
+           IsDeleted=false;
+        }
+
     }
 }

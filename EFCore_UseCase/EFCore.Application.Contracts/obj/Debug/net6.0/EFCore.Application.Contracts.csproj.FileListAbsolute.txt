@@ -2,7 +2,6 @@ E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Applic
 E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application.Contracts\bin\Debug\net6.0\EFCore.Application.Contracts.dll
 E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application.Contracts\bin\Debug\net6.0\ref\EFCore.Application.Contracts.dll
 E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application.Contracts\bin\Debug\net6.0\EFCore.Application.Contracts.pdb
-E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application.Contracts\obj\Debug\net6.0\EFCore.Application.Contracts.csproj.AssemblyReference.cache
 E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application.Contracts\obj\Debug\net6.0\EFCore.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
 E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application.Contracts\obj\Debug\net6.0\EFCore.Application.Contracts.AssemblyInfoInputs.cache
 E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application.Contracts\obj\Debug\net6.0\EFCore.Application.Contracts.AssemblyInfo.cs
@@ -10,3 +9,4 @@ E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Applic
 E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application.Contracts\obj\Debug\net6.0\EFCore.Application.Contracts.dll
 E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application.Contracts\obj\Debug\net6.0\ref\EFCore.Application.Contracts.dll
 E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application.Contracts\obj\Debug\net6.0\EFCore.Application.Contracts.pdb
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application.Contracts\obj\Debug\net6.0\EFCore.Application.Contracts.csproj.AssemblyReference.cache

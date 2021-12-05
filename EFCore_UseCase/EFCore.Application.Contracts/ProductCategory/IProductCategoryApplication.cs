@@ -8,8 +8,8 @@ namespace EFCore.Application.Contracts.ProductCategory
 {
     public interface IProductCategoryApplication
     {
-        void Create(CreateProductCategory command);
-        void Update(UpdateProductCategory command);
+        void Create(ProductCategoryForCreation command);
+        void Update(ProductCategoryForUpdate command);
         List<ProductCategoryViewModel> Search(string Name);
 
     }

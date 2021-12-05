@@ -15,7 +15,9 @@ namespace EFCore.Domain.Mapping
         {
             builder.ToTable("Product");
             builder.HasKey(x => x.ProductID);
-            builder.HasOne(x=>x.Category)
+            builder.Property(x => x.ProductName).HasMaxLength(255);
+            builder .Property(x=>x.ProductName).IsRequired();
+            builder.HasOne(x=>x.ProductCategory)
                 .WithMany(x=>x.Products)
                 .HasForeignKey(x=>x.CategoryID);
 

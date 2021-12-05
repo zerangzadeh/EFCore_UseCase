@@ -3,3 +3,10 @@ E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Domain
 E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Domain\obj\Debug\net6.0\EFCore.Domain.AssemblyInfoInputs.cache
 E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Domain\obj\Debug\net6.0\EFCore.Domain.AssemblyInfo.cs
 E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Domain\obj\Debug\net6.0\EFCore.Domain.csproj.CoreCompileInputs.cache
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Domain\bin\Debug\net6.0\EFCore.Domain.deps.json
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Domain\bin\Debug\net6.0\EFCore.Domain.dll
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Domain\bin\Debug\net6.0\ref\EFCore.Domain.dll
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Domain\bin\Debug\net6.0\EFCore.Domain.pdb
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Domain\obj\Debug\net6.0\EFCore.Domain.dll
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Domain\obj\Debug\net6.0\ref\EFCore.Domain.dll
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Domain\obj\Debug\net6.0\EFCore.Domain.pdb
