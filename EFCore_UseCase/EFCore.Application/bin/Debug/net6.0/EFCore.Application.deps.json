@@ -7,14 +7,41 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "EFCore.Application/1.0.0": {
+        "dependencies": {
+          "EFCore.Application.Contracts": "1.0.0",
+          "EFCore.Domain": "1.0.0"
+        },
         "runtime": {
           "EFCore.Application.dll": {}
+        }
+      },
+      "EFCore.Application.Contracts/1.0.0": {
+        "runtime": {
+          "EFCore.Application.Contracts.dll": {}
+        }
+      },
+      "EFCore.Domain/1.0.0": {
+        "dependencies": {
+          "EFCore.Application.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "EFCore.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "EFCore.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EFCore.Application.Contracts/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EFCore.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

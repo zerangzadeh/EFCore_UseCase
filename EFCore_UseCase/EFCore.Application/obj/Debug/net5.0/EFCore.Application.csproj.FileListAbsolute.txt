@@ -1,0 +1,17 @@
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application\bin\Debug\net5.0\EFCore.Application.deps.json
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application\bin\Debug\net5.0\EFCore.Application.dll
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application\bin\Debug\net5.0\ref\EFCore.Application.dll
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application\bin\Debug\net5.0\EFCore.Application.pdb
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application\bin\Debug\net5.0\EFCore.Application.Contracts.dll
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application\bin\Debug\net5.0\EFCore.Domain.dll
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application\bin\Debug\net5.0\EFCore.Application.Contracts.pdb
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application\bin\Debug\net5.0\EFCore.Domain.pdb
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application\obj\Debug\net5.0\EFCore.Application.csproj.AssemblyReference.cache
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application\obj\Debug\net5.0\EFCore.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application\obj\Debug\net5.0\EFCore.Application.AssemblyInfoInputs.cache
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application\obj\Debug\net5.0\EFCore.Application.AssemblyInfo.cs
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application\obj\Debug\net5.0\EFCore.Application.csproj.CoreCompileInputs.cache
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application\obj\Debug\net5.0\EFCore.Application.csproj.CopyComplete
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application\obj\Debug\net5.0\EFCore.Application.dll
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application\obj\Debug\net5.0\ref\EFCore.Application.dll
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore.Application\obj\Debug\net5.0\EFCore.Application.pdb

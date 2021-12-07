@@ -632,6 +632,20 @@
           }
         }
       },
+      "EFCore.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EFCore.Application.Contracts": "1.0.0",
+          "EFCore.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EFCore.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EFCore.Application.dll": {}
+        }
+      },
       "EFCore.Application.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -1874,6 +1888,11 @@
         "version.txt"
       ]
     },
+    "EFCore.Application/1.0.0": {
+      "type": "project",
+      "path": "../EFCore.Application/EFCore.Application.csproj",
+      "msbuildProject": "../EFCore.Application/EFCore.Application.csproj"
+    },
     "EFCore.Application.Contracts/1.0.0": {
       "type": "project",
       "path": "../EFCore.Application.Contracts/EFCore.Application.Contracts.csproj",
@@ -1887,8 +1906,11 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "EFCore.Application >= 1.0.0",
+      "EFCore.Application.Contracts >= 1.0.0",
       "EFCore.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.0",
+      "Microsoft.EntityFrameworkCore.Design >= 6.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.0"
     ]
@@ -1920,6 +1942,12 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "E:\\IT Studies\\Asp.Net Sample\\EFCore_UseCase_Product\\EFCore_UseCase\\EFCore.Application.Contracts\\EFCore.Application.Contracts.csproj": {
+              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\EFCore_UseCase_Product\\EFCore_UseCase\\EFCore.Application.Contracts\\EFCore.Application.Contracts.csproj"
+            },
+            "E:\\IT Studies\\Asp.Net Sample\\EFCore_UseCase_Product\\EFCore_UseCase\\EFCore.Application\\EFCore.Application.csproj": {
+              "projectPath": "E:\\IT Studies\\Asp.Net Sample\\EFCore_UseCase_Product\\EFCore_UseCase\\EFCore.Application\\EFCore.Application.csproj"
+            },
             "E:\\IT Studies\\Asp.Net Sample\\EFCore_UseCase_Product\\EFCore_UseCase\\EFCore.Domain\\EFCore.Domain.csproj": {
               "projectPath": "E:\\IT Studies\\Asp.Net Sample\\EFCore_UseCase_Product\\EFCore_UseCase\\EFCore.Domain\\EFCore.Domain.csproj"
             }
@@ -1937,6 +1965,11 @@
         "targetAlias": "net6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "target": "Package",
             "version": "[6.0.0, )"
           },

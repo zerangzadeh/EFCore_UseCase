@@ -10,7 +10,8 @@ namespace EFCore.Application.Contracts.ProductCategory
     {
         void Create(ProductCategoryForCreation command);
         void Update(ProductCategoryForUpdate command);
-        List<ProductCategoryViewModel> Search(string Name);
+        ProductCategoryForUpdate GetDetails(int id);
+        List<ProductCategoryViewModel> Search(string name);
 
     }
 }

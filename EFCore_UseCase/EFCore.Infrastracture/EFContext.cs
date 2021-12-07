@@ -18,10 +18,15 @@ namespace EFCore.Infrastracture
         public DbSet<Product> Products { get; set; }
         public DbSet<ProductCategory> ProductCategories { get; set; }
 
-        public EFContext(DbContextOptions options) : base(options)
+        public EFContext(DbContextOptions<EFContext> options) : base(options)
         {
 
         }
+
+
+
+        
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder) {
          //   modelBuilder.ApplyConfiguration(new ProductMapping());

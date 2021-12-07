@@ -1,0 +1,8 @@
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore_UseCase\obj\Debug\net5.0\EFCore_UseCase.csproj.AssemblyReference.cache
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore_UseCase\obj\Debug\net5.0\EFCore_UseCase.GeneratedMSBuildEditorConfig.editorconfig
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore_UseCase\obj\Debug\net5.0\EFCore_UseCase.AssemblyInfoInputs.cache
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore_UseCase\obj\Debug\net5.0\EFCore_UseCase.AssemblyInfo.cs
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore_UseCase\obj\Debug\net5.0\EFCore_UseCase.csproj.CoreCompileInputs.cache
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore_UseCase\obj\Debug\net5.0\EFCore_UseCase.MvcApplicationPartsAssemblyInfo.cache
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore_UseCase\obj\Debug\net5.0\EFCore_UseCase.RazorAssemblyInfo.cache
+E:\IT Studies\Asp.Net Sample\EFCore_UseCase_Product\EFCore_UseCase\EFCore_UseCase\obj\Debug\net5.0\EFCore_UseCase.RazorAssemblyInfo.cs

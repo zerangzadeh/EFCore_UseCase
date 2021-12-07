@@ -21,29 +21,29 @@ namespace EFCore.Domain.ProductAgg
 
 
 
-        public Product(string productName, DateTime addDate, double unitPrice, int categoryID)
+        public Product(string productName, DateTime creationDate, double unitPrice, int categoryID)
         {
             ProductName = productName;
-            CreationDate = addDate;
+            CreationDate = creationDate;
             UnitPrice = unitPrice;
             CategoryID = categoryID;
         }
-        public void Edit(string productName, DateTime addDate, double unitPrice, int categoryID)
-        {
-            ProductName = productName;
-            CreationDate = addDate;
-            UnitPrice = unitPrice;
-            CategoryID = categoryID;
+        //public void Edit(string productName, DateTime addDate, double unitPrice, int categoryID)
+        //{
+        //    ProductName = productName;
+        //    CreationDate = addDate;
+        //    UnitPrice = unitPrice;
+        //    CategoryID = categoryID;
 
-        }
-        public void Remove()
-        {
-            IsDeleted = true;   
-        }
-        public void Restore()
-        {
-           IsDeleted=false;
-        }
+        //}
+        //public void Remove()
+        //{
+        //    IsDeleted = true;   
+        //}
+        //public void Restore()
+        //{
+        //   IsDeleted=false;
+        //}
 
     }
 }

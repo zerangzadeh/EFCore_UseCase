@@ -43,7 +43,11 @@ namespace EFCore.Infrastracture.Repository
         public ProductCategory Get(int categoryID)
         {
             return efContext.ProductCategories.FirstOrDefault(x => x.CategoryID == categoryID);
-            
+        }
+
+        public ProductCategoryForUpdate GetDetails(int categoryID)
+        {
+           return efContext.ProductCategories.Select(x => new ProductCategoryForUpdate {CategoryID=x.CategoryID , CategoryName=x.CategoryName }).FirstOrDefault(x=>x.CategoryID==categoryID);
         }
 
         public void SaveChanges()

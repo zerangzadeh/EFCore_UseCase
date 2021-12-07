@@ -1,0 +1,302 @@
+﻿++Solution 'EFCore_UseCase' ‎(5 of 5 projects)
+i:{00000000-0000-0000-0000-000000000000}:EFCore_UseCase.sln
+++Domain
+i:{00000000-0000-0000-0000-000000000000}:Domain
+++EFCore.Domain
+i:{b7c60ef0-fc78-4244-8712-6683ee760262}:EFCore.Domain
+i:{480692da-722a-4a4e-b69b-e912f05752f0}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.domain\bin\debug\net6.0\efcore.domain.dll
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.domain\efcore.domain.csproj
+++Dependencies
+i:{05873e1b-3c40-4c75-9f9f-d7088c151538}:>557
+i:{480692da-722a-4a4e-b69b-e912f05752f0}:>558
+i:{8e4fee82-fb3e-483c-b65c-b215d4141268}:>559
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:>784
+++ProductAgg
+i:{05873e1b-3c40-4c75-9f9f-d7088c151538}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.domain\productagg\
+++ProductCategoryAgg
+i:{05873e1b-3c40-4c75-9f9f-d7088c151538}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.domain\productcategoryagg\
+++Analyzers
+i:{05873e1b-3c40-4c75-9f9f-d7088c151538}:analyzers
+i:{480692da-722a-4a4e-b69b-e912f05752f0}:analyzers
+i:{8e4fee82-fb3e-483c-b65c-b215d4141268}:analyzers
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:analyzers
+++Frameworks
+i:{05873e1b-3c40-4c75-9f9f-d7088c151538}:frameworks
+i:{480692da-722a-4a4e-b69b-e912f05752f0}:frameworks
+i:{8e4fee82-fb3e-483c-b65c-b215d4141268}:frameworks
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:frameworks
+++Projects
+i:{05873e1b-3c40-4c75-9f9f-d7088c151538}:projects
+i:{480692da-722a-4a4e-b69b-e912f05752f0}:projects
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:projects
+++IProductRepository.cs
+i:{05873e1b-3c40-4c75-9f9f-d7088c151538}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.domain\productagg\iproductrepository.cs
+++Product.cs
+i:{05873e1b-3c40-4c75-9f9f-d7088c151538}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.domain\productagg\product.cs
+++IProductCategoryRepository.cs
+i:{05873e1b-3c40-4c75-9f9f-d7088c151538}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.domain\productcategoryagg\iproductcategoryrepository.cs
+++ProductCategory.cs
+i:{05873e1b-3c40-4c75-9f9f-d7088c151538}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.domain\productcategoryagg\productcategory.cs
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{05873e1b-3c40-4c75-9f9f-d7088c151538}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{480692da-722a-4a4e-b69b-e912f05752f0}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{8e4fee82-fb3e-483c-b65c-b215d4141268}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{05873e1b-3c40-4c75-9f9f-d7088c151538}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{480692da-722a-4a4e-b69b-e912f05752f0}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{8e4fee82-fb3e-483c-b65c-b215d4141268}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++System.Text.Json.SourceGeneration
+i:{05873e1b-3c40-4c75-9f9f-d7088c151538}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{480692da-722a-4a4e-b69b-e912f05752f0}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{8e4fee82-fb3e-483c-b65c-b215d4141268}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{05873e1b-3c40-4c75-9f9f-d7088c151538}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.domain\microsoft.netcore.app
+i:{480692da-722a-4a4e-b69b-e912f05752f0}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.application\microsoft.netcore.app
+i:{8e4fee82-fb3e-483c-b65c-b215d4141268}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.application.contracts\microsoft.netcore.app
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\microsoft.netcore.app
+++EFCore.Application.Contracts
+i:{05873e1b-3c40-4c75-9f9f-d7088c151538}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.application.contracts\bin\debug\net6.0\efcore.application.contracts.dll
+i:{480692da-722a-4a4e-b69b-e912f05752f0}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.application.contracts\bin\debug\net6.0\efcore.application.contracts.dll
+i:{cd636759-d612-48e7-b0dd-42de7328f1dc}:EFCore.Application.Contracts
+++Application
+i:{00000000-0000-0000-0000-000000000000}:Application
+++EFCore.Application
+i:{cd636759-d612-48e7-b0dd-42de7328f1dc}:EFCore.Application
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.application\efcore.application.csproj
+++ProductCategoryApplication.cs
+i:{480692da-722a-4a4e-b69b-e912f05752f0}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.application\productcategoryapplication.cs
+++Product
+i:{8e4fee82-fb3e-483c-b65c-b215d4141268}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.application.contracts\product\
+++ProductCategory
+i:{8e4fee82-fb3e-483c-b65c-b215d4141268}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.application.contracts\productcategory\
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\pages\productcategory\
+++CreateProduct.cs
+i:{8e4fee82-fb3e-483c-b65c-b215d4141268}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.application.contracts\product\createproduct.cs
+++ProductViewModel.cs
+i:{8e4fee82-fb3e-483c-b65c-b215d4141268}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.application.contracts\product\productviewmodel.cs
+++UpdateProduct.cs
+i:{8e4fee82-fb3e-483c-b65c-b215d4141268}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.application.contracts\product\updateproduct.cs
+++IProductCategoryApplication.cs
+i:{8e4fee82-fb3e-483c-b65c-b215d4141268}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.application.contracts\productcategory\iproductcategoryapplication.cs
+++ProductCategoryForCreation.cs
+i:{8e4fee82-fb3e-483c-b65c-b215d4141268}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.application.contracts\productcategory\productcategoryforcreation.cs
+++ProductCategoryForUpdate.cs
+i:{8e4fee82-fb3e-483c-b65c-b215d4141268}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.application.contracts\productcategory\productcategoryforupdate.cs
+++ProductCategoryViewModel.cs
+i:{8e4fee82-fb3e-483c-b65c-b215d4141268}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.application.contracts\productcategory\productcategoryviewmodel.cs
+++Presentation
+i:{00000000-0000-0000-0000-000000000000}:Presentation
+++EFCore.PresentationLayer
+i:{667f1b8f-0dad-45a9-9f2f-5ca87b906b94}:EFCore.PresentationLayer
+++Connected Services 
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:>785
+++Properties
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\properties\
+++wwwroot
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\
+++Pages
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\pages\
+++appsettings.json
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\appsettings.json
+++Program.cs
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\program.cs
+++Startup.cs
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\startup.cs
+++No service dependencies discovered
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:>786
+++launchSettings.json
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\properties\launchsettings.json
+++css
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\css\
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\
+++js
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\js\
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\js\
+++lib
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\
+++favicon.ico
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\favicon.ico
+++Shared
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\pages\shared\
+++_ViewImports.cshtml
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\pages\_viewimports.cshtml
+++_ViewStart.cshtml
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\pages\_viewstart.cshtml
+++Error.cshtml
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\pages\error.cshtml
+++Index.cshtml
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\pages\index.cshtml
+++Privacy.cshtml
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\pages\privacy.cshtml
+++appsettings.Development.json
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:c:\users\azera\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\microsoft.aspnetcore.app
+++EFCore.Infrastracture
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.infrastracture\efcore.infrastracture.csproj
+++site.css
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\css\site.css
+++site.js
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\js\site.js
+++bootstrap
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\
+++jquery
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\jquery\
+++jquery-validation
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\jquery-validation\
+++jquery-validation-unobtrusive
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\jquery-validation-unobtrusive\
+++IndexProductCategory.cshtml
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\pages\productcategory\indexproductcategory.cshtml
+++_Layout.cshtml
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\pages\shared\_layout.cshtml
+++_ValidationScriptsPartial.cshtml
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\pages\shared\_validationscriptspartial.cshtml
+++Error.cshtml.cs
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\pages\error.cshtml.cs
+++Index.cshtml.cs
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\pages\index.cshtml.cs
+++Privacy.cshtml.cs
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\pages\privacy.cshtml.cs
+++dist
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\jquery\dist\
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\jquery-validation\dist\
+++LICENSE
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\license
+++LICENSE.txt
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\jquery\license.txt
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\jquery-validation-unobtrusive\license.txt
+++LICENSE.md
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\jquery-validation\license.md
+++jquery.validate.unobtrusive.js
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.js
+++IndexProductCategory.cshtml.cs
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\pages\productcategory\indexproductcategory.cshtml.cs
+++_Layout.cshtml.css
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\pages\shared\_layout.cshtml.css
+++jquery.js
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\jquery\dist\jquery.js
+++additional-methods.js
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\jquery-validation\dist\additional-methods.js
+++jquery.validate.js
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\jquery-validation\dist\jquery.validate.js
+++jquery.validate.unobtrusive.min.js
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\jquery-validation-unobtrusive\jquery.validate.unobtrusive.min.js
+++bootstrap.css
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap.css
+++bootstrap-grid.css
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
+++bootstrap-reboot.css
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css
+++bootstrap-utilities.css
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css
+++bootstrap.js
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\js\bootstrap.js
+++jquery.min.js
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\jquery\dist\jquery.min.js
+++additional-methods.min.js
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\jquery-validation\dist\additional-methods.min.js
+++jquery.validate.min.js
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\jquery-validation\dist\jquery.validate.min.js
+++bootstrap.css.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
+++bootstrap.min.css
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css
+++bootstrap.rtl.css
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css
+++bootstrap-grid.css.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css.map
+++bootstrap-grid.min.css
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css
+++bootstrap-grid.rtl.css
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css
+++bootstrap-reboot.css.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.css.map
+++bootstrap-reboot.min.css
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+++bootstrap-reboot.rtl.css
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css
+++bootstrap-utilities.css.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.css.map
+++bootstrap-utilities.min.css
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css
+++bootstrap-utilities.rtl.css
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css
+++bootstrap.bundle.js
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js
+++bootstrap.esm.js
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js
+++bootstrap.js.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\js\bootstrap.js.map
+++bootstrap.min.js
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js
+++jquery.min.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\jquery\dist\jquery.min.map
+++bootstrap.min.css.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css.map
+++bootstrap.rtl.css.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.css.map
+++bootstrap.rtl.min.css
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css
+++bootstrap-grid.min.css.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.min.css.map
+++bootstrap-grid.rtl.css.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.css.map
+++bootstrap-grid.rtl.min.css
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
+++bootstrap-reboot.min.css.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css.map
+++bootstrap-reboot.rtl.css.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.css.map
+++bootstrap-reboot.rtl.min.css
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css
+++bootstrap-utilities.min.css.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
+++bootstrap-utilities.rtl.css.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.css.map
+++bootstrap-utilities.rtl.min.css
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css
+++bootstrap.bundle.js.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.js.map
+++bootstrap.bundle.min.js
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js
+++bootstrap.esm.js.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.js.map
+++bootstrap.esm.min.js
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js
+++bootstrap.min.js.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\js\bootstrap.min.js.map
+++bootstrap.rtl.min.css.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css.map
+++bootstrap-grid.rtl.min.css.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css.map
+++bootstrap-reboot.rtl.min.css.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.rtl.min.css.map
+++bootstrap-utilities.rtl.min.css.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.rtl.min.css.map
+++bootstrap.bundle.min.js.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js.map
+++bootstrap.esm.min.js.map
+i:{4be66241-a3f1-4246-80cd-6867773cd28d}:e:\it studies\asp.net sample\efcore_usecase_product\efcore_usecase\efcore.presentationlayer\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map

@@ -1,6 +1,6 @@
 ﻿namespace EFCore.Application.Contracts.Product
 {
-    public class UpdateProduct:CreateProduct
+    public class ProductForUpdate:ProductForCreate
     {
         public int ProductID { get; set; }
     }

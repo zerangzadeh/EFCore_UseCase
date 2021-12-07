@@ -20,6 +20,11 @@ namespace EFCore.Application
             }
         }
 
+        public ProductCategoryForUpdate GetDetails(int id)
+        {
+            return productCategoryRepository.GetDetails(id);
+        }
+
         public List<ProductCategoryViewModel> Search(string Name)
         {
             return productCategoryRepository.Search(Name);
@@ -27,8 +32,7 @@ namespace EFCore.Application
 
         public void Update(ProductCategoryForUpdate command)
         {
-           // var productCategory=productCategoryRepository.Get(command.CategoryID);
-           // productCategory.Edit(command.CategoryName);
+           //command=ProductCategoryApplication.GetDetails()
             productCategoryRepository.Update(command.CategoryID, command.CategoryName);
             productCategoryRepository.SaveChanges();
 

@@ -1,0 +1,38 @@
+﻿@page
+@model EFCore.PresentationLayer.Pages.ProductCategory.IndexProductCategoryModel
+@{
+}
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">لیست گروه محصولات </h1>
+    <p> <a asp-page="./CreateProductCategory" class="btn btn-success">ایجاد دسته جدید</a></p>
+</div>
+<table class="table table-responsive table-bordered table-striped">
+    <thead>
+        <tr>
+            <td>Category ID</td>
+            <td>Category Name</td>
+            <td>Creation Date</td>
+            <td>Operation</td>
+        </tr>
+
+       
+           
+        </thead>
+        <tbody>
+             @{
+            foreach (var itm in Model.ProductCategories)
+            {
+            <tr>
+                <th>@itm.CategoryID </th>
+                <th>@itm.CategoryName</th>
+                <th>@itm.CreationDate</th>
+                <th><a asp-page="./EditProductCategory" asp-route-id=@itm.CategoryID>ویرایش</a></th>
+            </tr>
+             }
+             }
+        </tbody>
+    </table>
