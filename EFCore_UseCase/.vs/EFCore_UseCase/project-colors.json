@@ -40,7 +40,22 @@
       "ProjectGuid": "4be66241-a3f1-4246-80cd-6867773cd28d",
       "DisplayName": "EFCore.PresentationLayer",
       "ColorIndex": 6
+    },
+    "758644f4-d160-4a3d-a24f-3ad3b2e9c65f": {
+      "ProjectGuid": "758644f4-d160-4a3d-a24f-3ad3b2e9c65f",
+      "DisplayName": "Presentation",
+      "ColorIndex": 7
+    },
+    "48e39189-79a4-421e-9a44-2b725c7c4dcf": {
+      "ProjectGuid": "48e39189-79a4-421e-9a44-2b725c7c4dcf",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 8
+    },
+    "9cb2f02b-0d3d-4ec4-8767-fc4da433823c": {
+      "ProjectGuid": "9cb2f02b-0d3d-4ec4-8767-fc4da433823c",
+      "DisplayName": "EFCore.Presentation",
+      "ColorIndex": 9
     }
   },
-  "NextColorIndex": 7
+  "NextColorIndex": 10
 }
