@@ -17,7 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.Infrastracture", "EFCore.Infrastracture\EFCore.Infrastracture.csproj", "{CE130CC8-A379-40F5-8E7A-4FF0714E1CC9}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PresentationLayer", "PresentationLayer", "{758644F4-D160-4A3D-A24F-3AD3B2E9C65F}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{758644F4-D160-4A3D-A24F-3AD3B2E9C65F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.Presentation", "EFCore.Presentation\EFCore.Presentation.csproj", "{9CB2F02B-0D3D-4EC4-8767-FC4DA433823C}"
 EndProject

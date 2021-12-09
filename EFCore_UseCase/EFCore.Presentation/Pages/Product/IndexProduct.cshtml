@@ -1,0 +1,50 @@
+﻿@page
+@model EFCore.Presentation.Pages.Product.IndexProductModel
+@{
+}
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">لیست محصولات </h1>
+    <p> <a asp-page="./CreateProduct" class="btn btn-success">ایجاد محصول جدید</a></p>
+</div>
+<table class="table table-responsive table-bordered table-striped">
+    <thead>
+        <tr>
+            <td>Product ID</td>
+            <td>Product Name</td>
+            <td>Creation Date</td>
+            <td>Unit Price</td>
+            <td>Category Name</td>
+            <td>عملیات</td>
+        </tr>
+
+
+
+    </thead>
+    <tbody>
+        @{
+            foreach (var itm in Model.Products)
+            {
+                <tr>
+                    <th>@itm.ProductId </th>
+                    <th>@itm.ProductName</th>
+                    <th>@itm.CreationDate</th>
+                    <th>@itm.UnitPrice</th>
+                    <th>@itm.CategoryName</th>
+                    <th><a asp-page="./EditProduct" asp-route-id=@itm.ProductId class="btn btn-warning">ویرایش</a></th>
+                    @if (!@itm.IsDeleted)
+                    {
+                          <th><a asp-page="./IndexProduct" asp-page-handler="Delete" asp-route-id=@itm.ProductId class="btn btn-danger">حذف</a></th>
+                    }
+                    else
+                    {
+                         <th><a asp-page="./IndexProduct" asp-page-handler="Restore" asp-route-id=@itm.ProductId class="btn btn-success">بازیابی</a></th>
+                    }
+                </tr>
+            }
+        }
+    </tbody>
+</table>

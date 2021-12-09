@@ -1,5 +1,6 @@
 ﻿using EFCore.Application.Contracts.Product;
 using EFCore.Domain.ProductAgg;
+using EFCore.Domain.ProductCategoryAgg;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace EFCore.Application
             this.productRepository = productRepository;
         }
 
-        public void Create(ProductForCreate command)
+        public void Create(ProductForCreation command)
         {
             if (!productRepository.Exist(command.ProductName, command.CategoryID))
             {
@@ -59,5 +60,7 @@ namespace EFCore.Application
             productRepository.Update(command.ProductID,command.ProductName, command.UnitPrice, command.CategoryID);
              productRepository.SaveChanges();
         }
+
+       
     }
 }

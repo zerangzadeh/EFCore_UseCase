@@ -16,6 +16,7 @@ namespace EFCore.Domain.ProductCategoryAgg
         bool Exist(string categoryName); 
         void Update(int categoryID,string categoryName);
         ProductCategoryForUpdate GetDetails(int categoryID);
+        List<ProductCategoryViewModel> GetAll();
         void SaveChanges();
 
 

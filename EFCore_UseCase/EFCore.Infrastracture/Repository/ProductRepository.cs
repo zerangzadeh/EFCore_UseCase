@@ -71,7 +71,6 @@ namespace EFCore.Infrastracture.Repository
              if (searchModel.IsDeleted==true)
             {
                 query=query.Where(x => x.IsDeleted == true);
-
             }
              if (!string.IsNullOrWhiteSpace(searchModel.ProductName))
                 query=query.Where(x=>x.ProductName.Contains(searchModel.ProductName));

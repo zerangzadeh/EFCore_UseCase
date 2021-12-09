@@ -8,7 +8,7 @@ namespace EFCore.Application.Contracts.Product
 {
     public interface IProductApplication
     {
-        public void Create(ProductForCreate command);
+        public void Create(ProductForCreation command);
         public void Update(ProductForUpdate command);
         public ProductForUpdate GetDetails(int id);
         List<ProductViewModel> Search(ProductSearchModel productSearchModel);

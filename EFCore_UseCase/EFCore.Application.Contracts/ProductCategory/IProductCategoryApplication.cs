@@ -12,6 +12,8 @@ namespace EFCore.Application.Contracts.ProductCategory
         void Update(ProductCategoryForUpdate command);
         ProductCategoryForUpdate GetDetails(int id);
         List<ProductCategoryViewModel> Search(string name);
+        List<ProductCategoryViewModel> GetAll();
+
 
     }
 }

@@ -1,5 +1,7 @@
 using EFCore.Application;
+using EFCore.Application.Contracts.Product;
 using EFCore.Application.Contracts.ProductCategory;
+using EFCore.Domain.ProductAgg;
 using EFCore.Domain.ProductCategoryAgg;
 using EFCore.Infrastracture;
 using EFCore.Infrastracture.Repository;
@@ -8,6 +10,8 @@ using Microsoft.EntityFrameworkCore;
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddTransient<IProductCategoryRepository, ProductCategoryRepository>();
 builder.Services.AddTransient<IProductCategoryApplication, ProductCategoryApplication>();
+builder.Services.AddTransient<IProductRepository, ProductRepository>();
+builder.Services.AddTransient<IProductApplication, ProductApplication>();
 builder.Services.AddDbContext<EFContext>(x => x.UseSqlServer(builder.Configuration.GetConnectionString("EFCoreProduct")));
 
 builder.Services.AddRazorPages();

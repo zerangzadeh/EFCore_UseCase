@@ -1,0 +1,30 @@
+﻿@page
+@model EFCore.Presentation.Pages.Product.EditProductModel
+@{
+}
+
+<form method="post">
+    <div class="row">
+        <div class="col-md-6 form-group">
+            <label asp-for="@Model.Command.ProductName"> نام محصول</label>
+            <input class="form-control" asp-for="@Model.Command.ProductName"/>
+         </div>
+         <div class="col-md-6 form-group">
+            <label asp-for="@Model.Command.UnitPrice"> قیمت محصول</label>
+            <input class="form-control" asp-for="@Model.Command.UnitPrice"/>
+         </div>
+         <div class="col-md-6 form-group">
+            <label asp-for="@Model.Command.CategoryID"> گروه محصول</label>
+           <select asp-items="@Model.ProductCategories" asp-for="@Model.Command.CategoryID" class="form-control">
+               <option value="0">گروه محصول</option>
+                       
+           </select>
+         </div>
+         <input type="hidden" asp-for="@Model.Command.ProductID" value="@Model.Command.ProductID" />
+        <div class="col-md-6">
+        <button type="submit" class="btn btn-success">ویرایش</button>
+        </div>
+
+    </div>
+</form>
+

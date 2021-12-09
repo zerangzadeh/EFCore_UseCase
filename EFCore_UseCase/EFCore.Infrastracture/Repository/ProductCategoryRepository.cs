@@ -45,6 +45,15 @@ namespace EFCore.Infrastracture.Repository
             return efContext.ProductCategories.FirstOrDefault(x => x.CategoryID == categoryID);
         }
 
+        public List<ProductCategoryViewModel> GetAll()
+        {
+          return efContext.ProductCategories.Select(x=>new ProductCategoryViewModel
+          {
+              CategoryID = x.CategoryID, 
+              CategoryName = x.CategoryName
+          }).ToList();
+        }
+
         public ProductCategoryForUpdate GetDetails(int categoryID)
         {
            return efContext.ProductCategories.Select(x => new ProductCategoryForUpdate {CategoryID=x.CategoryID , CategoryName=x.CategoryName }).FirstOrDefault(x=>x.CategoryID==categoryID);

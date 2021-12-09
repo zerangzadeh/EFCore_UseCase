@@ -20,6 +20,11 @@ namespace EFCore.Application
             }
         }
 
+        public List<ProductCategoryViewModel> GetAll()
+        {
+            return productCategoryRepository.GetAll();
+        }
+
         public ProductCategoryForUpdate GetDetails(int id)
         {
             return productCategoryRepository.GetDetails(id);
