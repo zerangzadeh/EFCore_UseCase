@@ -23,6 +23,7 @@ namespace EFCore.Presentation.Pages.Product
             Products = productApplication.Search(productSearchModel);
         }
 
+
         public RedirectToPageResult OnPostDelete(int ProductId)
         {
 
