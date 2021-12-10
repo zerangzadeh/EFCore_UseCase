@@ -13,6 +13,7 @@ namespace EFCore.Domain.ProductAgg
         void Create(Product product);
         void Remove(int productID);
         void Restore(int productID);
+        bool GetStatus(int productID);
         void Update(int productId, string productName, double unitPrice, int categoryID);
         ProductForUpdate GetDetails(int id);
         bool Exist(string name, int categoryId);

@@ -3,15 +3,17 @@
 @{
 }
 <form method="post">
-    <div class="row">
+    <div class="row p-3">
         <div class="col-md-6 form-group">
             <label asp-for="@Model.Command.CategoryName"> ویرایش گروه محصول</label>
-            <input class="form-control" asp-for="@Model.Command.CategoryName"  type="text" />
-        </div>
-        <input type="hidden" asp-for="@Model.Command.CategoryID" value="@Model.Command.CategoryID" />
-        <div class="col-md-12">
-            <br />
-<button type="submit" class="btn btn-success ">ویرایش </button>
+            <input class="form-control" asp-for="@Model.Command.CategoryName" type="text" />
+
+            <input type="hidden" asp-for="@Model.Command.CategoryID" value="@Model.Command.CategoryID" />
+           <div class="pt-3">
+               <button type="submit" class="btn btn-success form-control ">ویرایش </button>
+               </div>
+
+           
         </div>
     </div>
 </form>

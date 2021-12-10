@@ -40,6 +40,11 @@ namespace EFCore.Application
             return productRepository.GetDetails(id);
         }
 
+        public bool GetStatus(int id)
+        {
+           return productRepository.GetStatus(id);
+        }
+
         public void Restore(int id)
         {
             var product = productRepository.Get(id);

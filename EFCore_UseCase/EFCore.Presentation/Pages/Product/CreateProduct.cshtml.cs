@@ -8,7 +8,6 @@ namespace EFCore.Presentation.Pages.Product
 {
     public class CreateProductModel : PageModel
     {
-        List<ProductCategoryViewModel> ProductsCategories;
         public SelectList ProductCategories;
         private readonly IProductCategoryApplication productCategoryApplication;
         private readonly IProductApplication productApplication;

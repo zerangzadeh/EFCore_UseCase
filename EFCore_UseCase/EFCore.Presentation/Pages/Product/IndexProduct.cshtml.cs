@@ -16,11 +16,27 @@ namespace EFCore.Presentation.Pages.Product
             this.productApplication = productApplication;
         }
 
-        
+
 
         public void OnGet(ProductSearchModel productSearchModel)
         {
-            Products=productApplication.Search(productSearchModel);
+            Products = productApplication.Search(productSearchModel);
         }
+
+        public RedirectToPageResult OnPostDelete(int ProductId)
+        {
+
+            productApplication.Delete(ProductId);
+            return RedirectToPage("./IndexProduct");
+        }
+
+
+        public RedirectToPageResult OnPostRestore(int ProductId)
+        {
+            productApplication.Restore(ProductId);
+            return RedirectToPage("./IndexProduct");
+        }
+
+
     }
 }

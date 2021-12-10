@@ -7,7 +7,7 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">لیست محصولات </h1>
+    <h1 class="display-4 pb-3">لیست محصولات </h1>
     <p> <a asp-page="./CreateProduct" class="btn btn-success">ایجاد محصول جدید</a></p>
 </div>
 <table class="table table-responsive table-bordered table-striped">
@@ -35,14 +35,28 @@
                     <th>@itm.UnitPrice</th>
                     <th>@itm.CategoryName</th>
                     <th><a asp-page="./EditProduct" asp-route-id=@itm.ProductId class="btn btn-warning">ویرایش</a></th>
+
                     @if (!@itm.IsDeleted)
                     {
-                          <th><a asp-page="./IndexProduct" asp-page-handler="Delete" asp-route-id=@itm.ProductId class="btn btn-danger">حذف</a></th>
+                        <th>
+                           
+                        <form method="post" asp-page-handler="Delete" >
+                        <input type="hidden"   asp-for="@itm.ProductId" value="@itm.ProductId" />      
+                        <button class="btn btn-danger">حذف</button>
+                        <label asp-for="@itm.ProductId">@itm.ProductId </label>
+                            </form>
+                        </th>
                     }
                     else
                     {
-                         <th><a asp-page="./IndexProduct" asp-page-handler="Restore" asp-route-id=@itm.ProductId class="btn btn-success">بازیابی</a></th>
+                        <th>
+                            <form method="post"  asp-page-handler="Restore">
+                             <input type="hidden" asp-for="@itm.ProductId" value="@itm.ProductId" />     
+                            <button class="btn btn-success">بازیابی</button>
+                            </form>
+                        </th>
                     }
+
                 </tr>
             }
         }

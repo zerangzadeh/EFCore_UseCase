@@ -43,6 +43,12 @@ namespace EFCore.Infrastracture.Repository
               }).FirstOrDefault(x => x.ProductID == id);
         }
 
+        public bool GetStatus(int productID)
+        {
+          return efContext.Products.FirstOrDefault(x=>x.ProductID==productID).IsDeleted;
+           
+        }
+
         public void Remove(int ProductID)
         {
             efContext.Products.FirstOrDefault(x=>x.ProductID==ProductID).IsDeleted=true;

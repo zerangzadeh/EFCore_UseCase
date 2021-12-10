@@ -4,23 +4,22 @@
 }
 <form method="post">
     <div class="row">
-        <div class="col-md-6 form-group">
+        <div class="col-md-4 form-group">
             <label for="name"> نام محصول</label>
             <input class="form-control" name="ProductName" value="" id="name" type="text" />
-         </div>
-         <div class="col-md-6 form-group">
+        </div>
+        <div class="col-md-4 form-group">
             <label for="name"> قیمت محصول</label>
             <input class="form-control" name="UnitPrice" value="" id="unitPrice" type="number" />
-         </div>
-         <div class="col-md-6 form-group">
+        </div>
+        <div class="col-md-4 form-group">
             <label for="name"> گروه محصول</label>
-           <select asp-items="@Model.ProductCategories" name="categoryId" id="categoryId" class="form-control">
-               <option value="0">گروه محصول</option>
-                       
-           </select>
-         </div>
-        <div class="col-md-6">
-        <button type="submit" class="btn btn-success">ایجاد </button>
+            <select asp-items="@Model.ProductCategories" name="categoryId" id="categoryId" class="form-control">
+                <option value="0">گروه محصول</option>
+            </select>
+        </div>
+        <div class="col-md-12 pt-3">
+            <button type="submit" class="btn btn-success pt-3">ایجاد </button>
         </div>
 
     </div>

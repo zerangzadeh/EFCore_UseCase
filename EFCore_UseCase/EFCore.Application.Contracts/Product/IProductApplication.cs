@@ -14,6 +14,7 @@ namespace EFCore.Application.Contracts.Product
         List<ProductViewModel> Search(ProductSearchModel productSearchModel);
         public void Delete(int id);
         public void Restore(int id);
+        public bool GetStatus(int id);
 
     }
 }
