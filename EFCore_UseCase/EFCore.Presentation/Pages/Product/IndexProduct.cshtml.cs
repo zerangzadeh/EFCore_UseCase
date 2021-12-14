@@ -24,17 +24,17 @@ namespace EFCore.Presentation.Pages.Product
         }
 
 
-        public RedirectToPageResult OnPostDelete(int ProductId)
+        public RedirectToPageResult OnGetDelete(int id)
         {
 
-            productApplication.Delete(ProductId);
+            productApplication.Delete(id);
             return RedirectToPage("./IndexProduct");
         }
 
 
-        public RedirectToPageResult OnPostRestore(int ProductId)
+        public RedirectToPageResult OnGetRestore(int id)
         {
-            productApplication.Restore(ProductId);
+            productApplication.Restore(id);
             return RedirectToPage("./IndexProduct");
         }
 

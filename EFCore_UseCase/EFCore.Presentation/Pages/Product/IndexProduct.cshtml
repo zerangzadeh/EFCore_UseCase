@@ -39,21 +39,17 @@
                     @if (!@itm.IsDeleted)
                     {
                         <th>
-                           
-                        <form method="post" asp-page-handler="Delete" >
-                        <input type="hidden" asp-for="@itm.ProductId" value="@itm.ProductId" />      
-                        <button class="btn btn-danger">حذف</button>
-                       
-                            </form>
+                                           
+                        <a class="btn btn-danger" asp-page-handler="Delete" asp-route-id="@itm.ProductId" >حذف</a>
+                                             
                         </th>
                     }
                     else
                     {
                         <th>
-                            <form method="post"  asp-page-handler="Restore">
-                             <input type="hidden" asp-for="@itm.ProductId" value="@itm.ProductId" />     
-                            <button class="btn btn-success">بازیابی</button>
-                            </form>
+                           
+                            <a class="btn btn-success"   asp-page-handler="Restore"  asp-route-id="@itm.ProductId" >بازیابی</a>
+                           
                         </th>
                     }
 
